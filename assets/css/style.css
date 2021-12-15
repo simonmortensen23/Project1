@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #cccccc;
-    background-size: cover;
+    background-color: #fcf7f1;
+    
 }
 
 h1, h2 {
@@ -20,20 +20,23 @@ h1, h2 {
 /* Home */
 
 .home-image-container {
-    width: 100%;
     height: 600px;
+    width: 100%;
     background: #444;
     overflow: hidden;
-    position: relative;
 }
 
 .home-image {
-    overflow: visible;
     height: 600px;
     width: 100%;
-    background: url('../pictures/viking3.png') no-repeat center center;
-    background-size: cover;
+    background: url('../pictures/viking4.png') no-repeat center center;
     
+}
+
+/* Crashcourse */
+
+.crashcourse {
+    height: 600px;
 }
 
 /* Navigation links */
@@ -41,11 +44,50 @@ h1, h2 {
 .menu {
     font-size: 110%;
     letter-spacing: 4px;
+    background-color: #e64a19;
 }
 
 .menu li {
     float: right;
     margin-right: 30px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+/* footer */
+footer {
+    height: 150px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #e64a19;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+/* timeline */
+
+.timeline {
+    clear: both;
+}
+
+.timeline-left {
+    float: left;
+}
+
+.timeline-right {
+    float: right;
 }
 
 /* Timeline nav */
@@ -71,40 +113,14 @@ h1, h2 {
    
 }
 
-/* timeline */
+/* Newsletter */
 
-.timeline-left {
-    float: left;
-}
-
-.timeline-right {
-    float: right;
-}
-
-.video-home {
+.newsletter-section {
+    clear: both;
+    background: url('../pictures/viking2.jpg');
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+   
     
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-
-/* footer */
-footer {
-    height: 60px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background-color: #e64a19;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
 }
