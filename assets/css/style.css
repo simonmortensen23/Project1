@@ -12,10 +12,44 @@ body {
     
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* Heading and logo */
+
 h1, h2 {
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
 }
+
+.logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 30px;
+}
+
+/* Navigation links */
+
+.menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    background-color: #e64a19;
+}
+
+.menu, .logo {
+    line-height: 75px;
+}
+
+.menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+
+
 
 /* Home */
 
@@ -39,24 +73,7 @@ h1, h2 {
     height: 600px;
 }
 
-/* Navigation links */
 
-.menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    background-color: #e64a19;
-}
-
-.menu li {
-    float: right;
-    margin-right: 30px;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
 
 
 /* footer */
