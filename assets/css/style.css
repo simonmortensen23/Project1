@@ -8,9 +8,27 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    background-image: url("viking.jpg");
+    background-color: #cccccc;
 }
 
 h1, h2 {
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
+}
+
+/* header */
+
+header {
+    height: 150px;
+    background-color: #e64a19;
+}
+
+
+
+
+/* footer */
+header {
+    height: 150px;
+    background-color: #e64a19;
 }
