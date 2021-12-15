@@ -8,15 +8,19 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url('../assets/pictures/viking1.webp');
     background-color: #cccccc;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1, h2 {
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
+}
+
+.home-image {
+    height: 600px;
+    width: 100%;
+    background: url('../pictures/viking1.webp') no-repeat;
 }
 
 /* Timeline */
