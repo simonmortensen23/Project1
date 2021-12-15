@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url("/assets/pictures/viking.jpg");
+    background-image: url('../assets/pictures/viking1.webp');
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
