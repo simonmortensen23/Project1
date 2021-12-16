@@ -23,6 +23,7 @@ header h1 {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    color:#1e2e47;
     background-color: #fef7f1;
     margin-top: 75px;
     
@@ -111,6 +112,10 @@ h1, h2, h3, h4 {
     height: 600px;
 }
 
+.crashcourse p {
+    font-weight: bold;
+}
+
 .facts-left {
     float: left;
     padding-top: 30px;
@@ -149,6 +154,12 @@ h1, h2, h3, h4 {
 .cc-video {
     width: 33%;
     margin: 0 auto;
+    float:right;
+}
+
+.cc-video h3 {
+    text-align: left;
+    text-decoration: underline;
 }
 
 
