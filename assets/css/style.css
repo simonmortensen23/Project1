@@ -12,14 +12,14 @@ header {
    height: 100px;
    position: fixed; 
    margin: 0;
-   background-color: rgba(230, 74, 25, 0.5);
+   background-color: rgba(30, 46, 71, 0.5);
    
 
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #fcf7f1;
+    background-color: #fef7f1;
     margin-top: 150px;
     
 }
@@ -48,7 +48,7 @@ h1, h2 {
 .menu {
     font-size: 110%;
     letter-spacing: 4px;
-    background-color: #e64a19;
+    background-color: #1e2e47;
 }
 
 .menu, .logo {
@@ -94,7 +94,7 @@ footer {
     position: relative;
     bottom: 0px;
     width: 100%;
-    background-color: #e64a19;
+    background-color: #1e2e47;
     
 }
 
@@ -148,9 +148,10 @@ footer {
 .newsletter-section {
     clear: both;
     background: url('../pictures/viking2.jpg');
-    height: 900px;
+    height: 1200px;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
    
     
 }
