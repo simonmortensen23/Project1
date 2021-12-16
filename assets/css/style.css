@@ -18,13 +18,13 @@ header {
 }
 
 header h1 {
-    color: #fef7f1;
+    color: #fcf7f1;
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color:#1e2e47;
-    background-color: #fef7f1;
+    background-color: #fcf7f1;
     margin-top: 75px;
     
 }
@@ -52,8 +52,11 @@ h1, h2, h3, h4 {
 
 .menu {
     font-size: 110%;
+    font-family: 'Aclonica', sans-serif;
     letter-spacing: 4px;
     background-color: #1e2e47;
+    
+    
 }
 
 .menu, .logo {
@@ -62,8 +65,24 @@ h1, h2, h3, h4 {
 
 .menu li {
     float: right;
+    list-style: none;
     margin-right: 30px;
 }
+
+.menu a {
+    text-decoration: none;
+    color: #fcf7f1;
+}
+
+.menu a:hover{
+    border-bottom: 1px solid #fcf7f1;
+}
+
+.active {
+    border-bottom: 1px solid #fcf7f1;
+}
+
+
 
 /* Home page*/
 
@@ -168,7 +187,7 @@ h1, h2, h3, h4 {
 
 /* footer */
 footer {
-    height: 150px;
+    height: 75px;
     position: relative;
     bottom: 0px;
     width: 100%;
@@ -187,6 +206,7 @@ footer {
 /* timeline */
 
 .timeline {
+    height: 1200px;
     clear: both;
 }
 
@@ -201,6 +221,7 @@ footer {
 /* Timeline nav */
 
 .timeline-nav {
+    color: #1e2e47;
     font-size: 110%;
     height: 30px;
     width: 100%;
@@ -214,10 +235,9 @@ footer {
 
 .timeline-nav li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 16px;
-    text-decoration: none;
+    
    
 }
 
@@ -225,11 +245,26 @@ footer {
 
 .newsletter-section {
     clear: both;
-    background: url('../pictures/viking2.jpg');
+    background: url('../pictures/vikingmap.png');
     height: 1200px;
     background-position: center;
     background-size: cover;
     overflow: hidden;
    
     
+}
+
+.form-box {
+    border-radius: 25px;
+    height: 400px;
+    width: 600px;
+    background-color: rgba(30, 46, 71, 0.5);
+
+    top: 420px;
+    left: 300px;
+
+    padding-top: 30px;
+    padding-left: 15px;
+
+    position: absolute;
 }
