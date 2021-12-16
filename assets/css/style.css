@@ -29,7 +29,7 @@ body {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #1e2e47;
     width: 100%;
     margin: 5px 0;
 }
@@ -64,9 +64,6 @@ h1, h2, h3, h4 {
     margin-right: 30px;
 }
 
-
-
-
 /* Home page*/
 
 .home-image-container {
@@ -95,16 +92,65 @@ h1, h2, h3, h4 {
     background-color: rgba(254, 247, 241, 0.5);
 }
 
+.cc-intro h2 {
+    text-decoration: underline;
+}
+
 .cc-intro p {
     font-weight: bold;
+    text-align: center;
+    width: 33%;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 
-/* Crashcourse */
+/* Crashcourse, factboxes */
 
 .crashcourse {
     height: 600px;
 }
+
+.facts-left {
+    float: left;
+    padding-top: 30px;
+    width: 30%;
+    margin-top: 75px;
+
+}
+
+.facts-right {
+    float: right;
+    padding-top: 30px;
+    width: 30%;
+    margin-top: 75px;
+}
+
+.facts-left-box {
+    width: 75%;
+    float: right;
+    clear: both;
+    line-height: 20px;
+    margin-bottom: 30px;
+    border:2px dashed #1e2e47;
+    padding: 25px;
+}
+
+.facts-right-box {
+    width: 75%;
+    float: left;
+    clear: both;
+    line-height: 20px;
+    margin-bottom: 30px;
+    border:2px dashed #1e2e47;
+    padding: 25px;
+}
+
+.cc-video {
+    width: 33%;
+    margin: 0 auto;
+}
+
 
 
 
