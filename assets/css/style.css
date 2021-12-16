@@ -204,6 +204,7 @@ footer {
 }
 
 .social-networks {
+    padding-top: 25px;
     text-align: center;  
 }
 
@@ -226,7 +227,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 50%;
-    text-align: right;
+    text-align: center;
 }
 
 .timeline-right {
@@ -235,6 +236,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50%;
+    text-align: center;
     
 }
 
