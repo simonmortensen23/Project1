@@ -142,10 +142,23 @@ h1, h2, h3, h4 {
 /* Crashcourse, factboxes */
 
 
-.crashcourse {
+.crashcourse-container {
     height: 600px;
     color: #fcf7f1;
-    background-color: #1e2e47;
+    background-color: #fcf7f1;
+    background: url(../pictures/viking11.jpg) center center;
+   
+  
+    
+}
+
+.crashcourse h3 {
+    font-size: 150%;
+    text-align: center;
+    text-decoration: underline;
+
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 .crashcourse p {
@@ -173,12 +186,12 @@ h1, h2, h3, h4 {
     clear: both;
     line-height: 20px;
     margin-bottom: 30px;
-    border:2px dashed #fcf7f1;
+    border:2px dashed #1e2e47;
     padding: 25px;
 }
 
 .facts-left-box:hover {
-    border: 4px solid #fcf7f1;
+    border: 4px solid #1e2e47;
 }
 
 .facts-right-box {
@@ -187,12 +200,13 @@ h1, h2, h3, h4 {
     clear: both;
     line-height: 20px;
     margin-bottom: 30px;
-    border:2px dashed #fcf7f1;
+    border:2px dashed #1e2e47;
     padding: 25px;
 }
 
 .facts-right-box:hover {
-    border: 4px solid #fcf7f1;
+    border: 4px solid #1e2e47;
+    background: #1e2e47;
 }
 
 .cc-video {
@@ -201,10 +215,6 @@ h1, h2, h3, h4 {
     float:right;
 }
 
-.cc-video h3 {
-    text-align: left;
-    text-decoration: underline;
-}
 
 
 
@@ -239,6 +249,14 @@ footer {
     min-height: 100%;
     overflow: scroll;
     
+}
+
+.timeline h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 220%;
+
+    padding-top: 10px;
 }
 
 .timeline-left {
