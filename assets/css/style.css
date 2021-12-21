@@ -278,10 +278,11 @@ footer {
 /* timeline */
 
 .timeline {
-    height: 1200px;
+    height: 150vh;
     clear: both;
-    min-height: 100%;
-  
+    
+    padding-bottom: 25px;
+    margin-bottom: 25px;
     
 }
 
@@ -298,8 +299,8 @@ footer {
     width: 45%;
     padding-top: 50px;
     padding-bottom: 50px;
-    
     text-align: center;
+    clear: right;
 }
 
 .timeline-right {
@@ -309,7 +310,7 @@ footer {
     padding-bottom: 50px;
    
     text-align: center;
-    
+    clear: left;
 }
 
 
@@ -379,6 +380,8 @@ footer {
 /* Media queries */
 
 @media screen and (max-width: 1950px) {
+
+
     .crashcourse-container {
         
         height: 100%;
@@ -409,11 +412,24 @@ footer {
 
 @media screen and (max-width: 950px) {
 
+    .home-image-container {
+        height: 100%;
+    }
+
+    .home-image {
+        height: 50%;
+        width: 100%;
+    }
+
+    .cc-intro {
+        clear: both;
+    }
+
     .menu {
         clear: left;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
+        
+        margin-bottom: 25px;
         line-height: 25px;
     }
 
