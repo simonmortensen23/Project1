@@ -167,13 +167,16 @@ h1, h2, h3, h4 {
     padding-right: 10px;
 }
 
+
+
 .crashcourse-container p {
     font-weight: bold;
 }
 
 .crashcourse-container a {
+    color: inherit;
     text-decoration: none;
-    color: #fcf7f1;
+   
 
 }
 
@@ -197,6 +200,9 @@ h1, h2, h3, h4 {
 }
 
 .facts-left-box {
+    background: rgba(252,247, 241, 0.5);
+    color: #1e2e47;
+
     width: 75%;
     float: right;
     clear: both;
@@ -206,11 +212,10 @@ h1, h2, h3, h4 {
     padding: 25px;
 }
 
-.facts-left-box:hover {
-    border: 4px solid #1e2e47;
-}
-
 .facts-right-box {
+    background: rgba(252,247, 241, 0.5);
+    color: #1e2e47;
+
     width: 75%;
     float: left;
     clear: both;
@@ -223,18 +228,20 @@ h1, h2, h3, h4 {
 .facts-right-box:hover {
     border: 4px solid #1e2e47;
     background: #1e2e47;
+    color: #fcf7f1;
 }
 
 .facts-left-box:hover {
     border: 4px solid #1e2e47;
     background: #1e2e47;
+    color: #fcf7f1;
 }
 
 .cc-video {
     width: 33%;
     margin: 0 auto;
     float:right;
-    padding-top: 10px;
+    
 }
 
 
@@ -269,7 +276,7 @@ footer {
     height: 1200px;
     clear: both;
     min-height: 100%;
-    overflow: scroll;
+  
     
 }
 
