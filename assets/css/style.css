@@ -171,6 +171,7 @@ h1, h2, h3, h4 {
 
     padding-top: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -442,10 +443,7 @@ textarea {
     .facts-left, .facts-right {
         float: left;
         width: 50%;
-        margin: 0 auto;
-        
-       
-       
+        margin: 0 auto; 
     }
 
     .cc-video {
@@ -457,9 +455,9 @@ textarea {
     }
 
     .form-box { 
-        left: 0px;
+        position: relative;
         height: auto !important;
-        width: 75% !important;
+        width: 50% !important;
      }
     
     hr {
@@ -490,10 +488,11 @@ textarea {
         
     }
 
-    .form-box { 
-       left: 0px;
-       height: auto !important;
-       width: 75% !important;
+    .form-box {
+        top: 0; 
+       left: 0;
+       height: auto;
+       width: 90%;
     }
 
     
