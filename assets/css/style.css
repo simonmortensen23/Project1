@@ -6,12 +6,15 @@
     border: none;
 }
 
-body {
+html, body {
+    width: 100%;
+    margin: auto 0;
     font-family: 'Source Sans Pro', sans-serif;
     color:#1e2e47;
     background-color: #fcf7f1;
-    padding-top: 65px;
-    padding-top: 75px;
+    padding-top: 50px;
+    
+    
     
     
     
@@ -360,10 +363,12 @@ footer {
 }
 
 .text-input{
+    color: #fcf7f1;
     background: transparent;
     border:1px solid #fcf7f1;
     width: 100%;
     margin-bottom: 20px;
+    padding: 5px;
 }
 
 .join-button {
@@ -377,6 +382,14 @@ footer {
     height: 100px;
     width: 100%;
     border: 1px solid #fcf7f1;
+    color: #fcf7f1;
+}
+
+textarea {
+    resize: none;
+}
+
+::placeholder {
     color: #fcf7f1;
 }
 
