@@ -399,7 +399,7 @@ textarea {
 
 /* Media queries */
 
-@media screen and (max-width: 1950px) {
+@media screen and (max-width: 1200px) {
 
 
     .crashcourse-container {
@@ -424,6 +424,12 @@ textarea {
         padding: 0;
 
     }
+
+    .form-box { 
+        left: 0px;
+        height: auto !important;
+        width: 75% !important;
+     }
     
     hr {
         display: none;
@@ -455,6 +461,8 @@ textarea {
 
     .form-box { 
        left: 0px;
+       height: auto !important;
+       width: 75% !important;
     }
 
     
