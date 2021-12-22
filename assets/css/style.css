@@ -8,11 +8,11 @@
 
 html, body {
     width: 100%;
-    margin: auto 0;
+    margin: 0 auto;
     font-family: 'Source Sans Pro', sans-serif;
     color:#1e2e47;
     background-color: #fcf7f1;
-    padding-top: 50px;
+    
     
     
     
@@ -25,7 +25,7 @@ header {
     top: 0;
    width: 100%;
    height: 75px;
-   position: absolute; 
+   position: relative; 
    background-color: rgba(30, 46, 71);
    
 
@@ -153,6 +153,7 @@ h1, h2, h3, h4 {
 
 .crashcourse-container {
     height: 600px;
+    width: 100%;
     color: #fcf7f1;
     background-color: #fcf7f1;
     background: url(../pictures/viking11.jpg) center center;
@@ -260,9 +261,10 @@ footer {
     
     bottom: 0;
     width: 100%;
-    
     height: 75px;
     background: rgba(30, 46, 71);
+
+    position: relative;
    
 }
 
@@ -285,6 +287,7 @@ footer {
 
 .timeline {
     height: 150vh;
+    width: 100%;
     clear: both;
     
     padding-bottom: 25px;
@@ -328,6 +331,7 @@ footer {
     clear: both;
     background: url('../pictures/vikingmap.png');
     height: 1200px;
+    width: 100%;
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -442,11 +446,15 @@ textarea {
     }
 
     .menu {
-        clear: left;
         float: left;
-        
-        margin-bottom: 25px;
+        text-align: left;
+        width: 100%;
         line-height: 25px;
+        
+    }
+
+    .form-box { 
+       left: 0px;
     }
 
     
