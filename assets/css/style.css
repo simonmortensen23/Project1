@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 
 html, body {
@@ -285,44 +286,74 @@ footer {
 
 /* timeline */
 
-.timeline {
-    height: 150vh;
+.timeline_container {
+    height: 1200px;
     width: 100%;
+    margin: 0 auto;
+}
+
+.timeline {
+    
+    width: 80%;
     clear: both;
+    margin: 0 auto;
+    padding: 25px;
+
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: #1e2e47;
+
     
-    padding-bottom: 25px;
-    margin-bottom: 25px;
-    
 }
 
-.timeline h1 {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 220%;
-
-    padding-top: 10px;
+.timeline_component {
+    margin: 0 20px 20px 20px;
 }
 
-.timeline-left {
-    float: left;
-    width: 45%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    clear: right;
+.timeline_component-bg {
+    padding: 1.5em;
+    background: rgba(30, 46, 71, 0.2);
+    box-shadow: rgba(252,247, 241, 0.2);
+    border-radius: 10px;
+}
+.timeline_component-bottom {
+    margin-bottom: 0;
 }
 
-.timeline-right {
-    float: right;
-    width: 45%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-   
-    text-align: center;
-    clear: left;
+.timeline_date-right {
+    text-align: right;
 }
 
+.timeline_middle {
+    position: relative;
+    background: #1e2e47;
+}
 
+.timeline_point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #1e2e47;
+    border-radius: 50%;
+}
+
+.timeline_point-bottom {
+    top: initial;
+    bottom: 0;
+}
+
+.timeline_title {
+    margin: 0;
+    font-size: 1em;
+
+}
+
+.timeline_paragraph {
+    line-height: 1.5;
+}
 
 
 /* Newsletter */
