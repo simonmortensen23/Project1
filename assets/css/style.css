@@ -112,7 +112,7 @@ h1, h2, h3, h4 {
 
 .cc-intro {
 
-   
+    height: 600px;
 
     display: flex;
     flex-direction: column;
@@ -133,6 +133,7 @@ h1, h2, h3, h4 {
     
     text-align: center;
     text-decoration: underline;
+    padding-bottom: 20px;
 }
 
 .cc-intro h2 {
