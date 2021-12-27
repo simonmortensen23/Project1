@@ -164,7 +164,7 @@ h1, h2, h3, h4 {
     width: 100%;
     color: #fcf7f1;
     background-color: #fcf7f1;
-    background: url(../pictures/viking11.jpg) center center;
+    background: url(../images/viking11.jpg) center center;
     
    
   
@@ -375,7 +375,7 @@ footer {
 
 .newsletter-section {
     clear: both;
-    background: url('../pictures/vikingmap.png');
+    background: url('../images/vikingmap.png');
     height: 1200px;
     width: 100%;
     background-position: center;
