@@ -392,11 +392,13 @@ footer {
 }
 
 .form-box {
+    background: url("../images/noise_lines.png");
+
     color: #1e2e47;
     
 
     border-radius: 25px;
-    height: 400px;
+    height: 420px;
     width: 600px;
     background-color: #fcf7f1;
 
@@ -425,7 +427,7 @@ footer {
 
 .text-input{
     color: inherit;
-    background: transparent;
+    
     border:3px solid #1e2e47;
     width: 100%;
     margin-bottom: 20px;
@@ -454,11 +456,12 @@ footer {
 
 .question {
     clear: both;
-    background: transparent;
+    
     height: 90px;
     width: 100%;
     border: 1px solid #1e2e47;
     color: #1e2e47;
+    
 }
 
 textarea {
