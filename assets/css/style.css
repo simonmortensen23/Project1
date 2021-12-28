@@ -421,21 +421,36 @@ footer {
 .text-input{
     color: inherit;
     background: transparent;
-    border:1px solid #1e2e47;
+    border:3px solid #1e2e47;
     width: 100%;
     margin-bottom: 20px;
     padding: 5px;
 }
 
 .join-button {
+    color: #fcf7f1;
+    font-weight: bold;
+    font-size: 1.2em;
+
+
+    background-color: #1e2e47;
+   
+
     margin-right: 100%;
     margin-bottom: 20px;
+    padding: 5px;
     
 }
 
+.join-button:hover {
+    cursor: pointer;
+}
+
+
+
 .question {
     background: transparent;
-    height: 100px;
+    height: 90px;
     width: 100%;
     border: 1px solid #1e2e47;
     color: #1e2e47;
