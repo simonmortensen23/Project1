@@ -433,27 +433,27 @@ footer {
 }
 
 .join-button {
-    color: #fcf7f1;
-    font-weight: bold;
-    font-size: 1.2em;
-
-
-    background-color: #1e2e47;
-   
-
-    margin-right: 100%;
-    margin-bottom: 20px;
-    padding: 5px;
+    background:#1e2e47;
+    color:#fcf7f1;
+    border-style:outset;
+    border-color:#1e2e47;
+    height:50px;
+    width:100px;
+    font:bold15px arial,sans-serif;
+    text-shadow:none;
     
+    margin-bottom: 10px;
 }
 
 .join-button:hover {
+    
     cursor: pointer;
 }
 
 
 
 .question {
+    clear: both;
     background: transparent;
     height: 90px;
     width: 100%;
@@ -500,9 +500,7 @@ textarea {
         width: 50% !important;
      }
     
-    hr {
-        display: none;
-    }
+    
 }
 
 @media screen and (max-width: 950px) {
