@@ -388,6 +388,7 @@ footer {
 
 .form-box {
     color: #1e2e47;
+    
 
     border-radius: 25px;
     height: 400px;
@@ -402,13 +403,15 @@ footer {
     position: absolute;
 }
 
-.form-box h2 {
+.form-box  h2 {
     margin-bottom: 20px;
     font-size: 1em;
     text-align: center;
 }
 
 .newsletter-form {
+    font-weight: bold;
+
     letter-spacing: 3px;
     margin-bottom: 10px;
     text-align: left;
