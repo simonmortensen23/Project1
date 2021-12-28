@@ -200,10 +200,6 @@ h1, h2, h3, h4 {
 
 }
 
-.crashcourse-container a:hover {
-    border-bottom: 1px solid #fcf7f1;
-}
-
 .facts-left {
     float: left;
     padding-top: 30px;
@@ -348,6 +344,11 @@ footer {
     
 }
 
+.timeline a {
+    text-decoration: none;
+    color: #1e2e47;   
+}
+
 .timeline_component {
     margin: 0 20px 20px 20px;
 }
@@ -359,6 +360,11 @@ footer {
     border: #1e2e47 solid 3px;
     border-radius: 10px;
 }
+
+.timeline_component-bg:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 .timeline_component-bottom {
     margin-bottom: 0;
 }
