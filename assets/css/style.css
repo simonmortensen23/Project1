@@ -305,6 +305,10 @@ footer {
 /* timeline */
 
 .timeline_container {
+    background: url("../images/noise_lines.png");
+    background-color: rgba(252,247, 241, 0.2);
+
+
     height: 1200px;
     width: 100%;
     margin: 0 auto;
@@ -332,6 +336,7 @@ footer {
     padding: 1.5em;
     background: rgba(30, 46, 71, 0.2);
     box-shadow: rgba(252,247, 241, 0.2);
+    border: #1e2e47 solid 1px;
     border-radius: 10px;
 }
 .timeline_component-bottom {
