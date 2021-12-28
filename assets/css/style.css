@@ -314,6 +314,17 @@ footer {
     height: 1200px;
     width: 100%;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline_container h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+    border-bottom: #1e2e47 solid 2px ;
 }
 
 .timeline {
