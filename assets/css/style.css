@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 .home-image-container {
     height: 600px;
     width: 100%;
-    background: #fcf7f1;
+    background: url("../images/noise_lines.png") #fcf7f1;
     overflow: hidden;
     
 }
@@ -305,7 +305,7 @@ footer {
 /* timeline */
 
 .timeline_container {
-    background: url("../images/noise_lines.png");
+    background: url("../images/noise_lines.png") #fcf7f1;
     background-color: rgba(252,247, 241, 0.2);
 
 
@@ -383,7 +383,7 @@ footer {
 
 .newsletter-section {
     clear: both;
-    background: url('../images/vikingmap.png');
+    background: url('../images/vikingmap.png') #fcf7f1;
     height: 1200px;
     width: 100%;
     background-position: center;
@@ -392,7 +392,7 @@ footer {
 }
 
 .form-box {
-    background: url("../images/noise_lines.png");
+    background: url("../images/noise_lines.png") #fcf7f1;
 
     color: #1e2e47;
     
