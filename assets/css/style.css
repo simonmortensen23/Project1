@@ -551,5 +551,10 @@ textarea {
         
      }
 
+     .join-button {
+         height: auto;
+         width: auto;
+     }
+
     
 }
