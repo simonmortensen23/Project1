@@ -1,82 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
 
-    <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Newsletter | Vikings</title>
-</head>
+        <link rel="stylesheet" href="assets/css/style.css" />
 
+        <title>Newsletter | Vikings</title>
+    </head>
 
-<body>
-    <header>
-        <a href="index.html">
-            <h1 class="logo">Vikings</h1>
-        </a>
-        <nav>
-            <ul class="menu">
-                <li><a href="form.html" class="active">Newsletter</a></li>
-                <li><a href="timeline.html">Timeline</a></li>
-                <li><a href="index.html">Home</a></li>
-            </ul>              
-            
-        </nav>
+    <body>
+        <header>
+            <a href="index.html">
+                <h1 class="logo">Vikings</h1>
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="form.html" class="active">Newsletter</a></li>
+                    <li><a href="timeline.html">Timeline</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    </header>
-    
-    <section class="newsletter-section">
+        <section class="newsletter-section">
+            <div class="form-box">
+                <h2>Sign up to newsletter for more knowledge!</h2>
 
-    <div class="form-box">
-        <h2>Sign up to newsletter for more knowledge!</h2>
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="newsletter-form">
+                    <label for="fname">First Name</label>
+                    <input id="fname" name="first_name" type="text" class="text-input" placeholder="Enter First Name" required />
 
-    <form method="POST" action="https://formdump.codeinstitute.net/" class="newsletter-form">
+                    <label for="lname">Last Name</label>
+                    <input id="lname" name="last_name" type="text" class="text-input" placeholder="Enter Last Name" required />
 
-    <label for="fname">First Name</label>
-    <input id="fname" name="first_name" type="text"
-    class="text-input" placeholder="Enter First Name" required>
-    
-    <label for="lname">Last Name</label>
-    <input id="lname" name="last_name" type="text" 
-    class="text-input" placeholder="Enter Last Name" required>
-    
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="email_address"
-    class="text-input" placeholder="Enter Email Adress" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" class="text-input" placeholder="Enter Email Adress" required />
 
-    <input class="join-button" type="submit" value="Submit">
-    
-    <br>
-    
-    <label for="question">Ask our experts any question about viking:</label>
-    <textarea name="question" id="question" class="question-input" placeholder="Enter your comment here" maxlength="200"></textarea>
+                    <input class="join-button" type="submit" value="Submit" />
 
-    </form>
-    </div>
-    </section>
+                    <br />
 
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://www.facebook.com/HistoryUncovered" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCdQ7TeO252Hfj_S02zudUZg" target="_blank" rel="noopener" aria-label="Watch more videos on yotube (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://www.bbc.co.uk/history/ancient/vikings/" target="_blank" rel="noopener" aria-label="Visit BBC History for more knowledge (opens in a new tab)"><i class="fas fa-history"></i></a>
-            </li>
-            <li>
-                <a href="https://www.reddit.com/r/history/" target="_blank" rel="noopener" aria-label="Visit history subreddit for more knowledge (opens in a new tab)"><i class="fab fa-reddit"></i></a>
-            </li>
-        </ul>
-    </footer>   
+                    <label for="question">Ask our experts any question about viking:</label>
+                    <textarea name="question" id="question" class="question-input" placeholder="Enter your comment here" maxlength="200"></textarea>
+                </form>
+            </div>
+        </section>
 
-<!-- font awesome script -->
-<script src="https://kit.fontawesome.com/9c76855791.js" crossorigin="anonymous"></script>
-    
-</body>
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://www.facebook.com/HistoryUncovered" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCdQ7TeO252Hfj_S02zudUZg" target="_blank" rel="noopener" aria-label="Watch more videos on yotube (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/history/ancient/vikings/" target="_blank" rel="noopener" aria-label="Visit BBC History for more knowledge (opens in a new tab)"><i class="fas fa-history"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.reddit.com/r/history/" target="_blank" rel="noopener" aria-label="Visit history subreddit for more knowledge (opens in a new tab)"><i class="fab fa-reddit"></i></a>
+                </li>
+            </ul>
+        </footer>
 
+        <!-- font awesome script -->
+        <script src="https://kit.fontawesome.com/9c76855791.js" crossorigin="anonymous"></script>
+    </body>
 </html>

@@ -1,44 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Source+Sans+Pro:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Source+Sans+Pro:ital@1&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     border: none;
-    
 }
 
 html body {
     width: 100%;
     margin: 0 auto;
-    font-family: 'Source Sans Pro', sans-serif;
-    color:#1e2e47;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #1e2e47;
     background-color: #fcf7f1;
-
-    
-    
-    
-    
-    
-    
-    
-    
 }
 
 header {
-   top: 0;
-   width: 100%;
-   height: 75px;
-   position: relative; 
-   background-color: rgba(30, 46, 71);
-   
-
+    top: 0;
+    width: 100%;
+    height: 75px;
+    position: relative;
+    background-color: rgba(30, 46, 71);
 }
 
 header h1 {
     color: #fcf7f1;
 }
-
-
 
 hr {
     border-top: 1px solid #1e2e47;
@@ -48,8 +34,11 @@ hr {
 
 /* Heading and logo */
 
-h1, h2, h3, h4 {
-    font-family: 'Aclonica', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Aclonica", sans-serif;
     text-transform: uppercase;
 }
 
@@ -63,14 +52,13 @@ h1, h2, h3, h4 {
 
 .menu {
     font-size: 110%;
-    font-family: 'Aclonica', sans-serif;
+    font-family: "Aclonica", sans-serif;
     letter-spacing: 4px;
     background-color: #1e2e47;
-    
-    
 }
 
-.menu, .logo {
+.menu,
+.logo {
     line-height: 75px;
 }
 
@@ -85,15 +73,13 @@ h1, h2, h3, h4 {
     color: #fcf7f1;
 }
 
-.menu a:hover{
+.menu a:hover {
     border-bottom: 1px solid #fcf7f1;
 }
 
 .active {
     border-bottom: 1px solid #fcf7f1;
 }
-
-
 
 /* Home page*/
 
@@ -102,14 +88,12 @@ h1, h2, h3, h4 {
     width: 100%;
     background: url("../images/noise_lines.png") #fcf7f1;
     overflow: hidden;
-    
 }
 
 .home-image {
     height: 600px;
     width: 50%;
     float: left;
-    
 }
 
 .home-image img {
@@ -119,26 +103,20 @@ h1, h2, h3, h4 {
 }
 
 .cc-intro {
-
     height: 600px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     font-size: 1.5em;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #1e2e47;
     font-style: oblique;
-   
-   
-    
-
 }
 
 .cc-intro h1 {
-    
     text-align: center;
     text-decoration: underline;
     margin-bottom: 70px;
@@ -147,9 +125,6 @@ h1, h2, h3, h4 {
 .cc-intro h2 {
     font-size: 120%;
     text-align: center;
-   
-
-    
 }
 
 .cc-intro li {
@@ -157,16 +132,13 @@ h1, h2, h3, h4 {
     text-align: center;
 
     list-style: none;
-    
+
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 
-
 /* Crashcourse, factboxes */
-
 
 .crashcourse-container {
     height: 600px;
@@ -174,12 +146,7 @@ h1, h2, h3, h4 {
     color: #fcf7f1;
     background-color: #1e2e47;
     background: url(../images/viking11.jpg) center center;
-    
-   
-  
-    
 }
-
 
 .crashcourse-container h2 {
     background-color: #1e2e47;
@@ -187,14 +154,11 @@ h1, h2, h3, h4 {
     font-size: 150%;
     text-align: center;
     text-decoration: underline;
-    
 
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
 }
-
-
 
 .crashcourse-container p {
     font-weight: bold;
@@ -204,8 +168,6 @@ h1, h2, h3, h4 {
 .crashcourse-container a {
     color: inherit;
     text-decoration: none;
-   
-
 }
 
 .facts-left {
@@ -216,7 +178,6 @@ h1, h2, h3, h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .facts-right {
@@ -230,7 +191,7 @@ h1, h2, h3, h4 {
 }
 
 .facts-left-box {
-    background: rgba(252,247, 241);
+    background: rgba(252, 247, 241);
     color: #1e2e47;
 
     width: 75%;
@@ -238,12 +199,12 @@ h1, h2, h3, h4 {
     clear: both;
     line-height: 20px;
     margin-bottom: 30px;
-    border:2px dashed #1e2e47;
+    border: 2px dashed #1e2e47;
     padding: 25px;
 }
 
 .facts-right-box {
-    background: rgba(252,247, 241);
+    background: rgba(252, 247, 241);
     color: #1e2e47;
 
     width: 75%;
@@ -251,7 +212,7 @@ h1, h2, h3, h4 {
     clear: both;
     line-height: 20px;
     margin-bottom: 30px;
-    border:2px dashed #1e2e47;
+    border: 2px dashed #1e2e47;
     padding: 25px;
 }
 
@@ -267,7 +228,6 @@ h1, h2, h3, h4 {
     width: 33%;
     margin: 0 auto;
     text-align: center;
-   
 }
 
 .cc-video video {
@@ -275,23 +235,18 @@ h1, h2, h3, h4 {
     height: auto !important;
 }
 
-
 /* footer */
 
 footer {
-    
     bottom: 0;
     width: 100%;
     height: 75px;
     background: rgba(30, 46, 71);
-
-    
-   
 }
 
 .social-networks {
     padding-top: 25px;
-    text-align: center;  
+    text-align: center;
 }
 
 .social-networks > li {
@@ -305,18 +260,15 @@ footer {
 }
 
 .social-networks i:hover {
-   color: rgba(126, 120, 120, 0.22);
-   
+    color: rgba(126, 120, 120, 0.22);
 }
 
 /* timeline */
 
 .timeline_container {
     background: url("../images/noise_lines.png") #fcf7f1;
-    background-color: rgba(252,247, 241, 0.2);
+    background-color: rgba(252, 247, 241, 0.2);
 
-
-   
     width: 100%;
     margin: 0 auto;
 
@@ -326,14 +278,13 @@ footer {
     justify-content: center;
 }
 
-.timeline_container h1{
+.timeline_container h1 {
     font-size: 2em;
     margin: 30px;
-    border-bottom: #1e2e47 solid 2px ;
+    border-bottom: #1e2e47 solid 2px;
 }
 
 .timeline {
-    
     width: 80%;
     clear: both;
     margin: 0 auto;
@@ -342,19 +293,16 @@ footer {
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
     color: #1e2e47;
-
-    
 }
 
 .timeline p {
     font-size: 1.1em;
     letter-spacing: 0.5px;
-    
 }
 
 .timeline a {
     text-decoration: none;
-    color: #1e2e47;   
+    color: #1e2e47;
 }
 
 .timeline_component {
@@ -363,8 +311,8 @@ footer {
 
 .timeline_component-bg {
     padding: 1.5em;
-    background: rgba(252,247, 241, 0.6);
-    
+    background: rgba(252, 247, 241, 0.6);
+
     border: #1e2e47 solid 3px;
     border-radius: 10px;
 }
@@ -410,19 +358,17 @@ footer {
 .timeline_title {
     margin: 0;
     font-size: 1em;
-
 }
 
 .timeline_paragraph {
     line-height: 1.5;
 }
 
-
 /* Newsletter */
 
 .newsletter-section {
     clear: both;
-    background: url('../images/vikingmap.png') #fcf7f1;
+    background: url("../images/vikingmap.png") #fcf7f1;
     height: 1200px;
     width: 100%;
     background-position: center;
@@ -434,7 +380,6 @@ footer {
     background: url("../images/noise_lines.png") #fcf7f1;
 
     color: #1e2e47;
-    
 
     border-radius: 25px;
     height: 420px;
@@ -449,7 +394,7 @@ footer {
     position: absolute;
 }
 
-.form-box  h2 {
+.form-box h2 {
     margin-bottom: 20px;
     font-size: 1em;
     text-align: center;
@@ -461,47 +406,42 @@ footer {
     letter-spacing: 3px;
     margin-bottom: 10px;
     text-align: left;
-    
 }
 
-.text-input{
+.text-input {
     color: inherit;
-    
-    border:3px solid #1e2e47;
+
+    border: 3px solid #1e2e47;
     width: 100%;
     margin-bottom: 20px;
     padding: 5px;
 }
 
 .join-button {
-    background:#1e2e47;
-    color:#fcf7f1;
-    border-style:outset;
-    border-color:#1e2e47;
-    height:50px;
-    width:100px;
-    font: bold 15px 'aclonica',sans-serif;
+    background: #1e2e47;
+    color: #fcf7f1;
+    border-style: outset;
+    border-color: #1e2e47;
+    height: 50px;
+    width: 100px;
+    font: bold 15px "aclonica", sans-serif;
     letter-spacing: 2px;
-    text-shadow:none;
-    
+    text-shadow: none;
+
     margin-bottom: 10px;
 }
 
 .join-button:hover {
-    
     cursor: pointer;
 }
 
-
-
 .question-input {
     clear: both;
-    
+
     height: 90px;
     width: 100%;
     border: 1px solid #1e2e47;
     color: #1e2e47;
-    
 }
 
 textarea {
@@ -515,43 +455,33 @@ textarea {
 /* Media queries */
 
 @media screen and (max-width: 1200px) {
-
-
     .crashcourse-container {
-        
         height: 100%;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
-    .facts-left, .facts-right {
+    .facts-left,
+    .facts-right {
         float: left;
         width: 50%;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
     .cc-video {
-    
         width: 90%;
         text-align: center;
         padding: 0;
-
     }
 
-    
-  
-
-    .form-box { 
+    .form-box {
         position: fixed;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-     }
-    
-    
+    }
 }
 
 @media screen and (max-width: 950px) {
-
     .home-image-container {
         height: 100%;
     }
@@ -570,14 +500,13 @@ textarea {
         text-align: left;
         width: 100%;
         line-height: 25px;
-        
     }
 
     .timeline_container {
         height: 100%;
     }
 
-    .form-box { 
+    .form-box {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -585,14 +514,10 @@ textarea {
 
         height: auto;
         width: auto;
-      
-        
-     }
+    }
 
-     .join-button {
-         height: auto;
-         width: auto;
-     }
-
-    
+    .join-button {
+        height: auto;
+        width: auto;
+    }
 }
