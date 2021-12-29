@@ -24,7 +24,7 @@ Users of this website will be able to dive into the Age of Vikings through inter
 - The introduction presents the content of the website, using the color of the navigation bar to keep the color theme. And using the viking rune font theme. 
 - This section tells the user what opportunities the website contains.
   
-![image](https://user-images.githubusercontent.com/43667190/147686898-32299c57-fcfe-404b-a8b8-9cb9a1ddacf5.png)
+![image](https://user-images.githubusercontent.com/43667190/147696044-7d00480f-33a1-44a7-81af-1ca47694af75.png)
 
 
 ### The Myths and Facts section
