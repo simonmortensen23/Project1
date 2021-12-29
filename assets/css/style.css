@@ -108,8 +108,12 @@ h1, h2, h3, h4 {
 .home-image {
     height: 600px;
     width: 50%;
-   float: left;
-   object-fit: cover;
+    float: left;
+    
+}
+
+.home-image img {
+    object-fit: cover;
 }
 
 .cc-intro {
@@ -135,7 +139,7 @@ h1, h2, h3, h4 {
     
     text-align: center;
     text-decoration: underline;
-    padding-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .cc-intro h2 {
@@ -472,7 +476,8 @@ footer {
     border-color:#1e2e47;
     height:50px;
     width:100px;
-    font:bold15px arial,sans-serif;
+    font: bold 15px 'aclonica',sans-serif;
+    letter-spacing: 2px;
     text-shadow:none;
     
     margin-bottom: 10px;
@@ -485,7 +490,7 @@ footer {
 
 
 
-.question {
+.question-input {
     clear: both;
     
     height: 90px;
