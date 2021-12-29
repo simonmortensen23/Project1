@@ -171,7 +171,7 @@ h4 {
 }
 
 .facts {
-    display: flex;
+      display: flex;
     align-items: center;
 }
 
@@ -372,31 +372,23 @@ footer {
 /* Newsletter */
 
 .newsletter-section {
-    clear: both;
-    background: url("../images/vikingmap.png") #fcf7f1;
-    height: 1200px;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
+
+    background: url(../images/vikingmap.png) #fcf7f1;
+
+    min-height: calc(100vh - 150px);
+    display: flex;
 }
 
 .form-box {
-    background: url("../images/noise_lines.png") #fcf7f1;
-
+    background: url(../images/noise_lines.png) #fcf7f1;
     color: #1e2e47;
-
     border-radius: 25px;
-    height: 420px;
     width: 600px;
     background-color: #fcf7f1;
 
-    top: 420px;
-    left: 300px;
-
     padding: 30px;
 
-    position: absolute;
+    margin: auto;
 }
 
 .form-box h2 {
@@ -506,14 +498,16 @@ textarea {
 
     .menu {
         float: left;
-        text-align: left;
         width: 100%;
-        
+        justify-content: center;
+        font-size: 0.9em;
     }
 
-    .timeline_container {
-        height: 100%;
+    .newsletter-section {
+        display: block;
+        background-size: cover;
     }
+
 
     .form-box {
         position: absolute;
