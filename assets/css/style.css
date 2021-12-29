@@ -263,9 +263,9 @@ footer {
     color: rgba(126, 120, 120, 0.22);
 }
 
-/* timeline */
+/* timeline from turtorial */
 
-.timeline_container {
+.timeline-container {
     background: url("../images/noise_lines.png") #fcf7f1;
     background-color: rgba(252, 247, 241, 0.2);
 
@@ -278,7 +278,7 @@ footer {
     justify-content: center;
 }
 
-.timeline_container h1 {
+.timeline-container h1 {
     font-size: 2em;
     margin: 30px;
     border-bottom: #1e2e47 solid 2px;
@@ -305,11 +305,11 @@ footer {
     color: #1e2e47;
 }
 
-.timeline_component {
+.timeline-component {
     margin: 0 20px 20px 20px;
 }
 
-.timeline_component-bg {
+.timeline-component-bg {
     padding: 1.5em;
     background: rgba(252, 247, 241, 0.6);
 
@@ -317,29 +317,29 @@ footer {
     border-radius: 10px;
 }
 
-.timeline_component-bg:hover {
+.timeline-component-bg:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.timeline_component-bottom {
+.timeline-component-bottom {
     margin-bottom: 0;
 }
 
-.timeline_date {
+.timeline-date {
     font-size: 1.3em;
     font-weight: bold;
 }
 
-.timeline_date-right {
+.timeline-date-right {
     text-align: right;
 }
 
-.timeline_middle {
+.timeline-middle {
     position: relative;
     background: #1e2e47;
 }
 
-.timeline_point {
+.timeline-point {
     position: absolute;
     top: 0;
     left: 50%;
@@ -350,17 +350,17 @@ footer {
     border-radius: 50%;
 }
 
-.timeline_point-bottom {
+.timeline-point-bottom {
     top: initial;
     bottom: 0;
 }
 
-.timeline_title {
+.timeline-title {
     margin: 0;
     font-size: 1em;
 }
 
-.timeline_paragraph {
+.timeline-paragraph {
     line-height: 1.5;
 }
 
