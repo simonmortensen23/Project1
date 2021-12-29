@@ -109,7 +109,6 @@ h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     font-size: 1.5em;
     font-family: "Source Sans Pro", sans-serif;
     color: #1e2e47;
@@ -130,9 +129,7 @@ h4 {
 .cc-intro li {
     font-weight: bold;
     text-align: center;
-
     list-style: none;
-
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -154,11 +151,9 @@ h4 {
 
 .crashcourse-container h2 {
     background-color: #1e2e47;
-
     font-size: 150%;
     text-align: center;
     text-decoration: underline;
-
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
@@ -175,7 +170,7 @@ h4 {
 }
 
 .facts {
-      display: flex;
+    display: flex;
     align-items: center;
 }
 
@@ -202,7 +197,6 @@ h4 {
 .facts-left-box {
     background: rgba(252, 247, 241);
     color: #1e2e47;
-
     width: 75%;
     float: right;
     clear: both;
@@ -215,7 +209,6 @@ h4 {
 .facts-right-box {
     background: rgba(252, 247, 241);
     color: #1e2e47;
-
     width: 75%;
     float: left;
     clear: both;
@@ -251,9 +244,7 @@ footer {
     width: 100%;
     height: 75px;
     background: rgba(30, 46, 71);
-   
 }
-
 
 .social-networks {
     padding-top: 25px;
@@ -269,7 +260,7 @@ footer {
 }
 
 .social-networks p {
-    color:#fcf7f1;
+    color: #fcf7f1;
 }
 
 .social-networks i {
@@ -287,10 +278,8 @@ footer {
 .timeline-container {
     background: url("../images/noise_lines.png") #fcf7f1;
     background-color: rgba(252, 247, 241, 0.2);
-
     width: 100%;
     margin: 0 auto;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,7 +297,6 @@ footer {
     clear: both;
     margin: 0 auto;
     padding: 25px;
-
     display: grid;
     grid-template-columns: 0.1fr 3px 1fr;
     color: #1e2e47;
@@ -331,7 +319,6 @@ footer {
 .timeline-component-bg {
     padding: 1.5em;
     background: rgba(252, 247, 241, 0.6);
-
     border: #1e2e47 solid 3px;
     border-radius: 10px;
 }
@@ -348,8 +335,6 @@ footer {
     font-size: 1.3em;
     font-weight: bold;
 }
-
-
 
 .timeline-middle {
     position: relative;
@@ -384,9 +369,7 @@ footer {
 /* Newsletter */
 
 .newsletter-section {
-
     background: url(../images/vikingmap.png) #fcf7f1;
-
     min-height: calc(100vh - 150px);
     display: flex;
 }
@@ -397,9 +380,7 @@ footer {
     border-radius: 25px;
     width: 600px;
     background-color: #fcf7f1;
-
     padding: 30px;
-
     margin: auto;
 }
 
@@ -419,7 +400,6 @@ footer {
 
 .text-input {
     color: inherit;
-
     border: 3px solid #1e2e47;
     width: 100%;
     margin-bottom: 20px;
@@ -436,7 +416,6 @@ footer {
     font: bold 15px "aclonica", sans-serif;
     letter-spacing: 2px;
     text-shadow: none;
-
     margin-bottom: 10px;
 }
 
@@ -446,7 +425,6 @@ footer {
 
 .question-input {
     clear: both;
-
     height: 90px;
     width: 100%;
     border: 1px solid #1e2e47;
@@ -520,13 +498,11 @@ textarea {
         background-size: cover;
     }
 
-
     .form-box {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-
         height: auto;
         width: auto;
     }
