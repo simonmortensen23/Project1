@@ -1,4 +1,4 @@
-#Vikings
+# Vikings
 
 The Vikings website is a historical page for the curious minded of all ages. The Vikings website will take you into the age of the vikings and give you an overview of their historical hightlights, myths and facts.
 
@@ -9,9 +9,9 @@ The goal of this website is to present the user for the age of the vikings and t
 
 ![image](https://user-images.githubusercontent.com/43667190/147686493-b421b9fa-73d4-442c-b524-cdb543da3a69.png)
 
-##Features
+## Features
 
-###Navigation
+### Navigation
   Featured at the top of the page, the navigations shows the websites name in the left corner: VIKINGS that links to the home page. 
   
   The other navigation links are set to the right: Home, Timeline, Newsletter. Timeline and Newsletter links to new pages on the website. 
@@ -22,7 +22,7 @@ The goal of this website is to present the user for the age of the vikings and t
   
   ![image](https://user-images.githubusercontent.com/43667190/147686872-9a808c85-f601-4a36-8e7b-2c7c9d9e766e.png)
   
-  ###The header
+  ### The header
   
   The header shows presents the theme of the website, using the color of the header to keep color theme. And using the viking rune font theme. 
   The header explains the websites content. 
@@ -31,7 +31,7 @@ The goal of this website is to present the user for the age of the vikings and t
   ![image](https://user-images.githubusercontent.com/43667190/147686898-32299c57-fcfe-404b-a8b8-9cb9a1ddacf5.png)
 
   
-  ###The Myths and Facts section
+  ### The Myths and Facts section
   
   The Myts and Facts section will allow the user to get a crash course of the viking age through the video.
   The myth boxes 
@@ -40,13 +40,13 @@ The goal of this website is to present the user for the age of the vikings and t
   
   ![image](https://user-images.githubusercontent.com/43667190/147686927-e20f90c0-5c42-4917-ac07-a6637f7b9cd8.png)
 
-   ###Footer
+   ### Footer
   The footer contains relevant links to external historical websites and youtube. The links will open to a new tab to allow easy navigation for the user.
   The footer helps the user to external webites for more in-depth knowledge.
   
   ![image](https://user-images.githubusercontent.com/43667190/147687083-49eac8f1-a5b5-4a4c-ab6f-8e7209103566.png)
   
-  ###Timeline
+  ### Timeline
   
   This section will allow the user to dive into the most important events of the viking age. 
   The timeline events are interactive and will lead the user to different historical websites with more in-depth knowledge.
@@ -54,7 +54,7 @@ The goal of this website is to present the user for the age of the vikings and t
   ![image](https://user-images.githubusercontent.com/43667190/147687002-3c7a2a8f-1351-401f-938c-7ee0e69e816d.png)
 
   
-  ###Newsletter
+  ### Newsletter
   This page will allow the user to sign up for the historical newsletter. The user can add questions about the viking age which will be answered and discussed in the newsletter 
   
   ![image](https://user-images.githubusercontent.com/43667190/147687037-927987e2-7e29-475c-8931-1b83394d6543.png)
@@ -63,7 +63,7 @@ The goal of this website is to present the user for the age of the vikings and t
  
 
   
-  ##Testing
+  ## Testing
   I tested that htis page works in different browsers: Chrome, Firefox, Safari.
   
   I confirmed that this project is responsive, looks good and funtions on all standard screen sizes using the devtools device toolbar.
