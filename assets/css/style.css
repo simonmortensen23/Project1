@@ -170,6 +170,11 @@ h4 {
     text-decoration: none;
 }
 
+.facts {
+    display: flex;
+    align-items: center;
+}
+
 .facts-left {
     float: left;
     padding-top: 30px;
@@ -495,11 +500,15 @@ textarea {
         clear: both;
     }
 
+    .facts {
+        flex-wrap: wrap;
+    }
+
     .menu {
         float: left;
         text-align: left;
         width: 100%;
-        line-height: 25px;
+        
     }
 
     .timeline_container {
