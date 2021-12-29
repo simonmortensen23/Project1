@@ -71,9 +71,48 @@ The goal of this website is to present the user for the age of the vikings and t
   I confirmed that the navigation, header, Myths and facts, time and newsletter are all readable and easy to understand. 
   
   I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works. 
+
+  ### Bugs
   
+  PLACEHOLDER
+
+  ### Validator Testing
+
+  - HTML
+    - No errors werer returned when passsing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmortensen23.github.io%2Fproject1%2F)
+
+  - CSS
+    - No errors werer returned when passsing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsimonmortensen23.github.io%2Fproject1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  - Accesibility 
+    - I confirmed that the colors and fonts chosen are easy to read and acccesible by running it through lighthouse in devtools  
+
+
+
+  ### Unfixed Bugs
+
+  No unfixed bugs
+
+  ## Deployment
+  - The site was deployed to GitHub pages. The steps to deplay are as follows:
+    - In the GitHub respository, navigate to the Settings tab
+    - From the setting menu navigate to Pages tab
+    - From the source section drop-down menu, select the main branch
+    - Once the main branch has been selected, the page provided the link to the completed website
+
+  Live link can be found here - [Vikings](https://simonmortensen23.github.io/project1/)  
+
+  ### Credits
+
+  ## Content
+
+  - The code to make footer links was taken from the CI [Love Running](https://github.com/simonmortensen23/love-running) project
+  - The code to make the timeline was inspired by [dcodes youtube video](https://www.youtube.com/watch?v=AIDiMA_C3sg&ab_channel=dcode)
   
-  
+  ## Media
+
+  - The images on home page was taken from [Pexels](https://www.pexels.com/da-dk/sog/viking/)
+  - The image on newsletter page was taken from https://www.nationalgeographic.com/interactive-assets/nggraphics/vikingsettlements-graphic/build-2017-03-27_16-28-31/assets/img/graphic-desktop.png
   
   
   
