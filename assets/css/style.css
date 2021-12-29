@@ -170,7 +170,7 @@ h1, h2, h3, h4 {
     height: 600px;
     width: 100%;
     color: #fcf7f1;
-    background-color: #fcf7f1;
+    background-color: #1e2e47;
     background: url(../images/viking11.jpg) center center;
     
    
@@ -179,7 +179,9 @@ h1, h2, h3, h4 {
 }
 
 
-.crashcourse-container h3 {
+.crashcourse-container h2 {
+    background-color: #1e2e47;
+
     font-size: 150%;
     text-align: center;
     text-decoration: underline;
