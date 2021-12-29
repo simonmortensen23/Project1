@@ -296,7 +296,7 @@ footer {
     padding: 25px;
 
     display: grid;
-    grid-template-columns: 1fr 3px 1fr;
+    grid-template-columns: 0.1fr 3px 1fr;
     color: #1e2e47;
 }
 
@@ -327,7 +327,7 @@ footer {
 }
 
 .timeline-component-bottom {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .timeline-date {
@@ -335,9 +335,7 @@ footer {
     font-weight: bold;
 }
 
-.timeline-date-right {
-    text-align: right;
-}
+
 
 .timeline-middle {
     position: relative;
