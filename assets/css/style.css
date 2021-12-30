@@ -149,16 +149,6 @@ h4 {
     background: url(../images/viking11.jpg) center center;
 }
 
-.crashcourse-container h2 {
-    background-color: #1e2e47;
-    font-size: 150%;
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-}
-
 .crashcourse-container p {
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -273,7 +263,7 @@ footer {
     color: rgba(126, 120, 120, 0.22);
 }
 
-/* timeline from turtorial */
+/* timeline */
 
 .timeline-container {
     background: url("../images/noise_lines.png") #fcf7f1;
