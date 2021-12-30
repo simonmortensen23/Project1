@@ -103,6 +103,7 @@ Live link can be found here - [Vikings](https://simonmortensen23.github.io/proje
 
 - The code to make footer links was taken from the CI [Love Running](https://github.com/simonmortensen23/love-running) project
 - The code to make the timeline was inspired by [dcodes youtube video](https://www.youtube.com/watch?v=AIDiMA_C3sg&ab_channel=dcode)
+- The code to make the box shadows was taken from [CSS Scan](https://getcssscan.com/css-box-shadow-examples)
 - The content of the timeline was taken from [lifeinnorway.net](https://www.lifeinnorway.net/viking-timeline/)
   
 ### Media
