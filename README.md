@@ -4,7 +4,7 @@ The Vikings website is a historical page for the curious minded of all ages. The
 
 Users of this website will be able to dive into the Age of Vikings through interactive fact boxes and timeline to go visit external historical websites and the newsletter, with historical news and question/answer section.
 
-![image](https://user-images.githubusercontent.com/43667190/147696776-2b4bdc2d-6cbf-4114-982e-2a2b13af8e99.png)
+![image](https://user-images.githubusercontent.com/43667190/147753265-ddfa8da9-940a-452e-8c3b-b75c97f9f1cd.png)
 
 ## Features
 
@@ -21,7 +21,7 @@ Users of this website will be able to dive into the Age of Vikings through inter
 - The introduction presents the content of the website, using the color of the navigation bar to keep the color theme. And using the viking rune font theme. 
 - This section shows the user what opportunities the website has.
   
-![image](https://user-images.githubusercontent.com/43667190/147696044-7d00480f-33a1-44a7-81af-1ca47694af75.png)
+![image](https://user-images.githubusercontent.com/43667190/147752965-b34b08d5-46f8-4d06-881d-0400a74ac8aa.png)
 
 
 ### The crashcourse section
@@ -30,7 +30,7 @@ Users of this website will be able to dive into the Age of Vikings through inter
 - This section also contains four fact boxes with well known myths. The boxes are also interactive and will redirect the the user to a youtube video explaining the myth. 
   
   
-![image](https://user-images.githubusercontent.com/43667190/147686927-e20f90c0-5c42-4917-ac07-a6637f7b9cd8.png)
+![image](https://user-images.githubusercontent.com/43667190/147753031-7dedc58c-d3a1-48cb-97e7-7827c9147dfd.png)
 
 ### Footer
 
@@ -48,22 +48,20 @@ Users of this website will be able to dive into the Age of Vikings through inter
 
   
 ### Newsletter
+
 - This page will allow the user to sign up for the historical newsletter. The user can add questions about the viking age which will be answered and discussed in the newsletter.
 - This allows the user to contribute to the content of the website, as question/comments will be discussed.   
-![image](https://user-images.githubusercontent.com/43667190/147687037-927987e2-7e29-475c-8931-1b83394d6543.png)
-
-  
- 
-
+- 
+![image](https://user-images.githubusercontent.com/43667190/147753128-7787f456-72ac-4368-a212-28f02ddef844.png)
   
 ## Testing
 - I tested that htis page works in different browsers: Chrome, Firefox, Opera.
   
 - I confirmed that this project is responsive, looks good and funtions on all standard screen sizes using the devtools device toolbar.
   
-- I confirmed that the navigation, header, Myths and facts, time and newsletter are all readable and easy to understand. 
+- I confirmed that the navigation, header, craschcourse section, timeline and newsletter are all readable and easy to understand. 
   
-- I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works. 
+- I have confirmed that the form works: requires entries in every field, except the question field, will only accept an email in the email field, and the submit button works. 
 
 ### Validator Testing
 
