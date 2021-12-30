@@ -2,7 +2,7 @@
 
 The Vikings website is a historical page for the curious minded of all ages. The Vikings website will take you into the age of the vikings and give you an overview of their historical hightlights, myths and facts.
 
-Users of this website will be able to dive into the Age of Vikings through interactive fact boxes and timeline to go visit external historical websites and the join newsletter, with historical news and question/answer section.
+Users of this website will be able to dive into the Age of Vikings through interactive fact boxes and timeline to go visit external historical websites and subscribe to the newsletter, with historical news and question/answer section.
 
 ![image](https://user-images.githubusercontent.com/43667190/147753265-ddfa8da9-940a-452e-8c3b-b75c97f9f1cd.png)
 
