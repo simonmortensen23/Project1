@@ -51,7 +51,7 @@ Users of this website will be able to dive into the Age of Vikings through inter
 
 - This page will allow the user to sign up for the historical newsletter. The user can add questions about the viking age which will be answered and discussed in the newsletter.
 - This allows the user to contribute to the content of the website, as question/comments will be discussed.   
-- 
+ 
 ![image](https://user-images.githubusercontent.com/43667190/147753128-7787f456-72ac-4368-a212-28f02ddef844.png)
   
 ## Testing
@@ -73,6 +73,9 @@ Users of this website will be able to dive into the Age of Vikings through inter
 
 - Accesibility 
   - I confirmed that the colors and fonts chosen are easy to read and acccesible by running it through lighthouse in devtools  
+
+![image](https://user-images.githubusercontent.com/43667190/147755886-4f28b500-d833-48ef-92f4-58866d8e2873.png)
+
 
 ### Unfixed Bugs
 
