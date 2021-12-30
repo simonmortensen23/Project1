@@ -59,9 +59,9 @@ Users of this website will be able to dive into the Age of Vikings through inter
   
 - I confirmed that this project is responsive, looks good and funtions on all standard screen sizes using the devtools device toolbar.
   
-- I confirmed that the navigation, header, Myths and facts, time and newsletter are all readable and easy to understand. 
+- I confirmed that the navigation, header, craschcourse section, timeline and newsletter are all readable and easy to understand. 
   
-- I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works. 
+- I have confirmed that the form works: requires entries in every field, except the question field, will only accept an email in the email field, and the submit button works. 
 
 ### Validator Testing
 
