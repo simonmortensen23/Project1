@@ -10,32 +10,30 @@ Users of this website will be able to dive into the Age of Vikings through inter
 
 ### Navigation
 - Featured at the top of the page, the navigations shows the websites name in the left corner: "VIKINGS" that links to the home page. 
-  
 - The other navigation links are set to the right: Home, Timeline, Newsletter. Timeline and Newsletter links to new pages on the website. 
-  
 - The navigation is in a font that resembles viking runes, and a color that contrasts the background. Chosen colors were used during the viking age. 
-  
-- The navigation clearly tells the name of the website and makes it easy to navigate around the website. The user can always see what page is active as the active page is underlined in the header. 
+- The user can always see what page is active, as the active page is underlined in the header. 
   
   ![image](https://user-images.githubusercontent.com/43667190/147686872-9a808c85-f601-4a36-8e7b-2c7c9d9e766e.png)
   
 ### The introduction
   
 - The introduction presents the content of the website, using the color of the navigation bar to keep the color theme. And using the viking rune font theme. 
-- This section tells the user what opportunities the website contains.
+- This section shows the user what opportunities the website has.
   
 ![image](https://user-images.githubusercontent.com/43667190/147696044-7d00480f-33a1-44a7-81af-1ca47694af75.png)
 
 
-### The Myths and Facts section
+### The crashcourse section
   
-- The Myts and Facts section will allow the user to get a crash course of the viking age through the video.
-- The myth & facts boxes interactive and will redirect you to a youtube video when clicked. 
+- The crashcourse section will allow the user to get an introduction to the vikings by wathing the video. 
+- This section also contains four fact boxes with well known myths. The boxes are also interactive and will redirect the the user to a youtube video explaining the myth. 
   
   
 ![image](https://user-images.githubusercontent.com/43667190/147686927-e20f90c0-5c42-4917-ac07-a6637f7b9cd8.png)
 
 ### Footer
+
 - The footer contains relevant links to external historical websites and youtube. The links will open to a new tab to allow easy navigation for the user.
 - The footer helps the user to external webites for more in-depth knowledge.
   
@@ -44,14 +42,14 @@ Users of this website will be able to dive into the Age of Vikings through inter
 ### Timeline
   
 - This section will allow the user to dive into the most important events of the viking age. 
-- The timeline events are interactive and will lead the user to different historical websites with more in-depth knowledge.
+- The timeline events are interactive and will redirect the user to different historical websites with more in-depth knowledge in a new tab.
   
 ![image](https://user-images.githubusercontent.com/43667190/147687002-3c7a2a8f-1351-401f-938c-7ee0e69e816d.png)
 
   
 ### Newsletter
 - This page will allow the user to sign up for the historical newsletter. The user can add questions about the viking age which will be answered and discussed in the newsletter.
-  
+- This allows the user to contribute to the content of the website, as question/comments will be discussed.   
 ![image](https://user-images.githubusercontent.com/43667190/147687037-927987e2-7e29-475c-8931-1b83394d6543.png)
 
   
@@ -59,17 +57,13 @@ Users of this website will be able to dive into the Age of Vikings through inter
 
   
 ## Testing
-- I tested that htis page works in different browsers: Chrome, Firefox, Safari.
+- I tested that htis page works in different browsers: Chrome, Firefox, Opera.
   
 - I confirmed that this project is responsive, looks good and funtions on all standard screen sizes using the devtools device toolbar.
   
 - I confirmed that the navigation, header, Myths and facts, time and newsletter are all readable and easy to understand. 
   
 - I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works. 
-
-### Bugs
-  
-PLACEHOLDER
 
 ### Validator Testing
 
@@ -81,8 +75,6 @@ PLACEHOLDER
 
 - Accesibility 
   - I confirmed that the colors and fonts chosen are easy to read and acccesible by running it through lighthouse in devtools  
-
-
 
 ### Unfixed Bugs
 
