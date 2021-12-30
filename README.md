@@ -21,7 +21,7 @@ Users of this website will be able to dive into the Age of Vikings through inter
 - The introduction presents the content of the website, using the color of the navigation bar to keep the color theme. And using the viking rune font theme. 
 - This section shows the user what opportunities the website has.
   
-![image](https://user-images.githubusercontent.com/43667190/147696044-7d00480f-33a1-44a7-81af-1ca47694af75.png)
+![image](https://user-images.githubusercontent.com/43667190/147752965-b34b08d5-46f8-4d06-881d-0400a74ac8aa.png)
 
 
 ### The crashcourse section
@@ -30,7 +30,7 @@ Users of this website will be able to dive into the Age of Vikings through inter
 - This section also contains four fact boxes with well known myths. The boxes are also interactive and will redirect the the user to a youtube video explaining the myth. 
   
   
-![image](https://user-images.githubusercontent.com/43667190/147686927-e20f90c0-5c42-4917-ac07-a6637f7b9cd8.png)
+![image](https://user-images.githubusercontent.com/43667190/147753031-7dedc58c-d3a1-48cb-97e7-7827c9147dfd.png)
 
 ### Footer
 
